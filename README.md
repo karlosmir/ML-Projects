@@ -1,2 +1,2 @@
 # ML-Projects
-All machine learning projects
+All my machine learning projects
