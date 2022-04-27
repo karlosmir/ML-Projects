@@ -51,3 +51,6 @@ RNC.fit_generator(training_set,
                   epochs = 25,
                   validation_data = test_set,
                   validation_steps = 20)
+# Observamos que el modelo aprende a identificar entre unas imagenes y otras, para mayor aprendizaje suministrar
+# mas imagenes ya que la muestra de testing es pequeña. Se podría utilizar este mismo modelo con varias clasificaciones
+# pero tendriamos que cambia la perdida a la hora nuestro modelo por loss = 'CategoricalCrossentropy'
